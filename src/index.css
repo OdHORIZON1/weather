@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, rgb(146, 113, 113), rgb(215, 220, 183));
+}
+
+.container {
+  width: 700px;
+  height: 520px;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("./after_noon.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  transition: transform 0.5s ease-in-out;
+}
+
+.search {
+  width: 50%;
+  margin-top: 5px;
+}
+
+.search input {
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  outline: 0px;
+  padding-left: 20px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.8);
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+}
+
+.name,
+.degree,
+.state,
+.date {
+  height: 60px;
+  width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.sp3 {
+  width: 120px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(34, 34, 34, 0.8);
+  border-radius: 4px;
+}
+
+.sp31 {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 17px;
+}
+
+.sp32 {
+  color: yellow;
+  font-size: 1.5rem;
+}
+.degree {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 17px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.state,
+.state1 {
+  font-size: 18px;
+  height: 100px;
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+  border-radius: 0px 0px 5px 5px;
+  padding-top: 20px;
+}
+.state {
+  margin-top: 40px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.date {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.temp {
+  width: 100px;
+  background: rgb(44, 41, 41, 0.7);
+  margin: 5px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  flex-direction: column;
+}
+.tem {
+  font-family: Roboto;
+  font-size: 70px;
+  color: white;
+  background: transparent;
+  width: 50%;
+  letter-spacing: 0px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.cl {
+  height: 25px;
+}
+
+.spee {
+  font-size: 20px;
+}
+
+.dis-cold {
+  background-image: url("./night.png");
+  background-size: cover;
+}
+.dis-hot {
+  background-image: url("./after_noon.png");
+  background-size: cover;
+}
+
+.name {
+  font-size: 30px;
+  margin-top: 20px;
+  color: aliceblue;
+}
