@@ -3,12 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to left, rgb(146, 113, 113), rgb(215, 220, 183));
-}
 
 .container {
   width: 700px;
@@ -157,4 +151,13 @@ body {
   font-size: 30px;
   margin-top: 20px;
   color: aliceblue;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #b92b27, #4e4376);
+  width: 100vw;
+  height: 100vh;
 }
